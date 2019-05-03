@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1097076893316",
+    "firebase_url": "https://lojavirtualflutter-d6677.firebaseio.com",
+    "project_id": "lojavirtualflutter-d6677",
+    "storage_bucket": "lojavirtualflutter-d6677.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097076893316:android:fe3ab768487b372b",
+        "android_client_info": {
+          "package_name": "br.eti.apracapinheiro.loja_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097076893316-942qn4u9n59ul66b7fkc1f11oskjhgfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ZFrrHO-NRtmI36QtLDr01KDKZ4aZ8Mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097076893316-942qn4u9n59ul66b7fkc1f11oskjhgfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
