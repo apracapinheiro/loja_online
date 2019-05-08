@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:loja_online/datas/product_data.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -27,7 +26,7 @@ class CartProduct {
       "pid": pid,
       "quantity": quantity,
       "size": size,
-//      "product": productData.toResumedMap()
+      "product": productData.toResumedMap()
     };
   }
 }

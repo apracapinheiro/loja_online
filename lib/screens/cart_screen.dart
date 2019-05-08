@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:loja_online/models/cart_model.dart';
 import 'package:loja_online/models/user_model.dart';
 import 'package:loja_online/screens/login_screen.dart';
+import 'package:loja_online/screens/order_screen.dart';
 import 'package:loja_online/tiles/cart_tile.dart';
 import 'package:loja_online/widgets/cart_price.dart';
 import 'package:loja_online/widgets/discount_cart.dart';
@@ -88,7 +89,13 @@ class CartScreen extends StatelessWidget {
                   ),
                   DiscountCart(),
                   ShipCard(),
-                  CartPrice((){})
+                  CartPrice(() async{
+                    String orderId = await model.finishOrder();
+                    if (orderId != null)
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(builder: (context) => OrderScreen(orderId))
+                      );
+                  })
                 ],
               );
             }
