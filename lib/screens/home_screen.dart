@@ -38,7 +38,6 @@ class HomeScreen extends StatelessWidget {
           drawer: CustomDrawer(_pageController),
           body: PlacesTab(),
         ),
-        Container(color: Colors.purpleAccent),
         Scaffold(
           appBar: AppBar(
             title: Text("Meus Pedidos"),
