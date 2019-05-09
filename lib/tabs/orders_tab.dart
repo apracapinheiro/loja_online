@@ -22,7 +22,7 @@ class OrdersTab extends StatelessWidget {
           } else {
             return ListView(
               children: snapshot.data.documents.map((doc)
-              => OrderTile(doc.documentID)).toList(),
+              => OrderTile(doc.documentID)).toList().reversed.toList(), // lista em ordem do mais novo para o mais antigo
             );
           }
         },
